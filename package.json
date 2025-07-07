@@ -1,0 +1,28 @@
+{
+  "name": "vite-react-mantine-ssg",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite-react-ssg dev",
+    "build": "vite-react-ssg build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mantine/core": "^8.1.2",
+    "@tabler/icons-react": "^3.34.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@vitejs/plugin-react-swc": "^3.10.2",
+    "postcss": "^8.5.6",
+    "postcss-dark-theme-class": "^1.3.0",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1",
+    "vite": "^6.3.5",
+    "vite-plugin-pages": "^0.33.1",
+    "vite-react-ssg": "^0.8.8"
+  }
+}
